@@ -4,7 +4,7 @@ import "time"
 
 type Cliente struct {
 	Nome      string      `json:"nome"`
-	Sobrenome string      `json:"sobrenome"` // Exported with uppercase
+	Sobrenome string      `json:"sobrenome"`
 	CPF       string      `json:"cpf"`
 	User      User        `json:"user"`
 	Conta     Conta       `json:"conta"`
