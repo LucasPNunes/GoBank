@@ -154,7 +154,7 @@ func login(clientes *[]Cliente) *Cliente {
 	var Cliente *Cliente
 	var Username, Password string
 	for authenticaded == false {
-		fmt.Print("\nDigite seu Nome de usuário: ")
+		fmt.Print("\nDigite seu usuário (CPF): ")
 		fmt.Scan(&Username)
 		fmt.Print("\nDigite sua senha: ")
 		fmt.Scan(&Password)
